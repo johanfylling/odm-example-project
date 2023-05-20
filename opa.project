@@ -1,5 +1,4 @@
 name: example project
 source: src
 dependencies:
-    git+https://github.com/johanfylling/odm-example-dependency.git#v1.0:
-        namespace: foobar
+    foobar: git+https://github.com/johanfylling/odm-example-dependency.git#v1.0
